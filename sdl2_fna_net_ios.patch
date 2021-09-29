@@ -1,0 +1,16 @@
+diff --git a/src/main/uikit/SDL_uikit_main.c b/src/main/uikit/SDL_uikit_main.c
+index 702f67391..698a334cb 100644
+--- a/src/main/uikit/SDL_uikit_main.c
++++ b/src/main/uikit/SDL_uikit_main.c
+@@ -11,11 +11,6 @@
+ #undef main
+ #endif
+ 
+-int
+-main(int argc, char *argv[])
+-{
+-    return SDL_UIKitRunApp(argc, argv, SDL_main);
+-}
+ #endif /* !SDL_MAIN_HANDLED */
+ 
+ /* vi: set ts=4 sw=4 expandtab: */
